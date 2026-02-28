@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: baseline;
+    text-decoration: none;
 }
 
 #logoP1 {
@@ -57,4 +58,11 @@ body {
     font-weight: 500;
     border-left: #141414 1px solid;
     padding-left: 10px;
+}
+
+p {
+    font-weight: 250;
+    font-size: 15px;
+    margin: 25px 0 25px 0;
+    width: 75%;
 }
