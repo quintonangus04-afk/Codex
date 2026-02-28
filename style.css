@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.fontMain {
+    font-family: sans-serif;
+    color: #141414;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+#logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-bottom: #141414 solid 1px;
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+#searchBar {
+    border: 1px #141414 solid;
+    height: 25px;
+    width: 400px;
+    background: none;
+    padding: 15px;
+    color: #141414;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.resultItem {
+    opacity: 0;
+    width: 400px;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #141414;
+    border-left: 1px #141414 solid;
+    padding-left: 10px;
+    animation: fadeIn 0.2s ease forwards;
+    margin: 5px 0 5px 0;
+
+}
+
+.resultItem:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
