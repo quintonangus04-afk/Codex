@@ -3,11 +3,8 @@ const searchBar = document.getElementById('searchBar');
 searchBar.value = ''
 
 searchBar.addEventListener('input', () => {
-    const pages = [
-        {page: 'html inputs', url: './pages/html-inputs.html'},
-        {page: 'fetch command', url: './pages/fetch-command.html'},
-        {page: 'border styling', url: './pages/border-styling.html'},
-        {page: 'async functions', url: './pages/async-functions.html'}
+    const pages = [   
+        {page: 'fetch command', url: './pages/fetch-command.html'}
     ];
 
     const searched = searchBar.value;

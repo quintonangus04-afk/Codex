@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+    color: #141414;
+}
+
+body {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 60%;
+    border-bottom: 1px solid #141414;
+    margin-bottom: 50px;
+}
+
+#logoContainer {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+#logoP1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#logoP2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+#fileDirectory {
+    font-weight: 300;
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+
+}
+
+#body {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+#title {
+    font-size: 35px;
+    font-weight: 500;
+    border-left: #141414 1px solid;
+    padding-left: 10px;
+}
