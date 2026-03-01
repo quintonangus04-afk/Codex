@@ -61,8 +61,38 @@ body {
 }
 
 p {
-    font-weight: 250;
+    font-weight: 200;
     font-size: 15px;
-    margin: 25px 0 25px 0;
-    width: 75%;
+    margin: 35px 0 35px 0;
+    width: 90%;
+}
+
+b {
+    font-weight: 600;
+}
+
+#h1 {
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 10px;
+    border-top: #141414 1px solid;
+}
+
+li {
+    margin: 15px 0 15px 0;
+}
+
+pre {
+    padding: 15px;
+    border: dashed #141414 1px;
+    border-radius: 5px;
+}
+
+code {
+    font-family: monospace;
+}
+
+.commentTxt {
+    font-family: monospace;
+    font-weight: 600;
 }

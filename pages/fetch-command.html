@@ -16,7 +16,28 @@
 
         <div id="body">
             <div id="title">Fetch Command</div>
-            <p>The fetch command is used to send & recieve data from a backend server, this can be sending user data to authenticate them or it might be getting data such as a user's ID.</p>
+            <p>
+                The fetch command is used to send & recieve data from a backend server, which is used in services like POS & user authentication systems. There are two main types of fetch requests, <b>GET</b> & 
+                <b>POST</b> requests. A GET request is designed to get infomation from the server, while a POST request sends a request to the server to proform a task maybe returning a response. Both can be used
+                in their own cases however POST is the most common used.
+            </p>
+            <div id="h1">POST request</div>
+            <p>
+                The POST request, as said before, sends a request to a server to proform a function which may return a response. When sending a request to the server it requires four main details:
+            </p>
+            <ol>
+                <li><b>URL</b> - this tells the frontend where to send the POST request to.</li>
+                <li><b>method</b> - tells the frontend what type of request to send, in this case a POST request.</li>
+                <li><B>header</B> - which sends infomation about your request like what format it is being sent as, and what format to respond with.</li>
+                <li><b>body</b> - this is the data that is sent to the server such as ID, password, and other info.</li>
+            </ol>
+<pre><code>
+const request = await fetch('backend server url', {  <span class="commentTxt"># Note: await is only required if waiting for a response from the server</span>
+    method: 'POST',
+    header: '{'Content-Type': 'application/json'}',
+    body: {data: data}
+})
+<code></pre>
         </div>
     </body>
 
